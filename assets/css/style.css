@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: url("../images/folk-pattern-black.png") repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    color: #777;
+
+}
+
+h1, h2, h3, h4, h5, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+header {
+    background: white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
+    position: top 0;
+}
+
+header h1 {
+    background-color: #4aaaa5;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-size: 35px;
+
+}
+
+
+
+nav {
+    width: 300px;
+    float: right;
+    margin-top: 35px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-right: 2px solid #4aaaa5;
+    text-decoration: none;
+
+}
+
+nav ul li:last-child a {
+    border-right: none;
+
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 20px;
+    margin-bottom: 22px;
+
+}
+
+footer {
+    background: #666;
+    border-top: 3px solid #4aaaa5;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
+
+form label {
+    font-size: 18px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ccc;
+    padding: 5px;
+    font-size: 18px;
+}
+
+textarea {
+    height: 200px;
+
+}
+
+form button {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+    border: none;
+}
+
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.wrapper h2 {
+    border-bottom: 2px solid #ccc;
+}
+
+.inline-img {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 1px solid #777;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.clearfix {
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+}
+
+
+
+
+#left-column {
+    background: white;
+    padding: 25px;
+    border: 2px solid #dddddd;
+    width: 100%;
+    float: left;
+}
+
+#left-column h2 {
+    font-size: 24px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+
+}
+
+/* Portfolio */
+
+.portfolio-item {
+    position: relative;
+    display: inline-block;
+    margin-right: 300px;
+    margin-bottom: 15px;
+}
+
+.portfolio-item-even {
+    position: relative;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.portfolio-item h4 {
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    top: 3cm;
+}
+
+.portfolio-item-even h4 {
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    top: 3cm;
+}

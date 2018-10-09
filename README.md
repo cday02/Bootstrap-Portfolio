@@ -1,1 +1,2 @@
-# Bootstrap-Portfolio
+# Basic-Portfolio
+Homework Assignment #1 - Basic Porftfolio
